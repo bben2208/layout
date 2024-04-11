@@ -1,165 +1,166 @@
 /* Box Model Hack */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-   clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
-header,.container1{
-
-    background-color: rgb(106, 118, 136);
+header,
+.container1 {
+  background-color: rgb(106, 118, 136);
 }
-
-
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-
-body{
-    font-family: 'Roboto Condensed';
-}
-nav ul{
-    display: flex;
-
+body {
+  font-family: "Roboto Condensed";
 }
 
-.left{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-basis: 0%;
-    list-style: none;
+/* Navigation */
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
 }
 
-#midle{
-    display: flex;
-    justify-content: center;
-}
-#midle{
-    display: flex;
-    flex-basis: 10%;
-    height: 10px;
-    justify-content: center;
+ul {
+  display: flex;
+  gap: 2rem;
 }
 
-.right{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-basis: 0%;
+  list-style: none;
 }
 
-header{
-
-    height: 55px;
-    margin:0;
+#midle {
+  display: flex;
+  justify-content: center;
+}
+#midle {
+  display: flex;
+  flex-basis: 10%;
+  height: 10px;
+  justify-content: center;
 }
 
-
-.container1{
-    height: 500px;
-    margin-top: 0;
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
-.container1 p{
-    flex-basis: 30%;
+header {
+  height: 55px;
 }
 
- h1 ,p,a{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container1 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
 }
 
-
-   
-
-.whitetext ,h1{
-    color: white;
+.container1 p {
+  width: 80%;
+  font-size: 1.5rem;
 }
 
- p{
-    font-size: medium;
+h1,
+p,
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-.container2{
-    height: 400px;
-    background-color: rgb(255, 255, 255);
+.whitetext,
+h1 {
+  color: white;
+  font-size: 4rem;
 }
 
- h2 ,p{
-    color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+p {
+  font-size: medium;
 }
 
-.container3{
-    background-color: rgb(221, 223,226);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    text-align: center;
-    text-decoration: rgb(103,114, 132);
+.container2 {
+  height: 400px;
+  background-color: rgb(255, 255, 255);
 }
 
-    
-img{
-    height: 200px;
-    flex-basis: 20%;
+h2,
+p {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.container4{
-    height: 400px;
-    background-color: rgb(255, 255, 255);
+.container3 {
+  background-color: rgb(221, 223, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  text-align: center;
+  text-decoration: rgb(103, 114, 132);
 }
 
+img {
+  height: 40px;
+}
 
-
+.container4 {
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+}
 
 footer {
-
-    background-color: rgb(25,31, 41);
-    display: flex;
-    height: 300px;
-
+  background-color: rgb(25, 31, 41);
+  display: flex;
+  height: 300px;
 }
 
-.topleft{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+.topleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-.bottomleft{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+.bottomleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 /* footer ul{
