@@ -1,0 +1,54 @@
+
+*{
+    box-sizing: border-box;
+}
+header {
+
+    height: 55px;
+    background: black;
+    color: white;
+  }
+  header{
+    color: black;
+  }
+  
+  nav *{
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+  }
+  
+  nav ul{
+    width: 50%;
+  }
+  
+  nav form input{
+    width: 100%;
+  }
+  
+.topsection{
+  width: 100%;
+}
+
+.mainleft{
+  width: 60%;
+  height: 500px;
+}
+
+.mainright{
+  width: 20%;
+  height: 250px;
+}
+
+.mainleft, .mainright{
+  float: left;
+  border: solid black 1px;
+}
+
+div{
+  width: 20%;
+  height: 250px;
+}
+
+

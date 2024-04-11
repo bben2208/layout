@@ -1,0 +1,60 @@
+section {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+  
+  div {
+    height: 150px;
+  }
+  
+  .top {
+    float: left;
+      width: 50%
+  }
+  
+  .right {
+    float: right;
+    background: cyan;
+  }
+  .bottom {
+    float: left;
+    width: 33%
+  }
+  
+  .red{
+    background: red;
+  }
+  
+  .green{
+    background: green
+  }
+  
+  .blue{
+    background: blue
+  }
+  .yellow{
+    background: yellow
+  }
+  .orange{
+    background: orange
+  }
+
+  nav *{
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+  }
+  
+  nav ul{
+    width: 50%;
+  }
+  
+  nav form input{
+    width: 100%;
+  }
+
+
+
+ 

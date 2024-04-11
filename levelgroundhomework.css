@@ -1,0 +1,186 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header,.container1{
+
+    background-color: rgb(106, 118, 136);
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+body{
+    font-family: 'Roboto Condensed';
+}
+nav ul{
+    display: flex;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: 0%;
+    list-style: none;
+}
+
+#midle{
+    display: flex;
+    justify-content: center;
+}
+#midle{
+    display: flex;
+    flex-basis: 10%;
+    height: 10px;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+header{
+
+    height: 55px;
+    margin:0;
+}
+
+
+.container1{
+    height: 500px;
+    margin-top: 0;
+}
+
+.container1 p{
+    flex-basis: 30%;
+}
+
+ h1 ,p,a{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+   
+
+.whitetext ,h1{
+    color: white;
+}
+
+ p{
+    font-size: medium;
+}
+
+
+
+.container2{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+ h2 ,p{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container3{
+    background-color: rgb(221, 223,226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    text-decoration: rgb(103,114, 132);
+}
+
+    
+img{
+    height: 200px;
+    flex-basis: 20%;
+}
+
+.container4{
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+footer {
+
+    background-color: rgb(25,31, 41);
+    display: flex;
+    height: 300px;
+
+}
+
+.topleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.bottomleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* footer ul{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+aside{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 20%;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
