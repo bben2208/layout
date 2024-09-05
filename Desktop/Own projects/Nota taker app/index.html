@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<section id="inputSection"></section>
+    <h1>Note Taker</h1>
+    <h2>Add a new note:</h2>
+    <span>Note :</span> 
+    <form action="#" method="post">
+        
+        <textarea id="longTextArea" name="longTextArea" rows="20" cols="80" placeholder="Type your text here..."></textarea><br><br>
+       
+    </form>
+
+    <button id="addNote">Add Note</button>
+   
+
+    <section id="noteSection"></section>
+
+    <table>
+        <tr>
+            
+        </tr>
+        <tbody id="noteTableBody" >
+        
+        </tbody>
+
+       
+        
+    </table>
+    <!-- Modal structure -->
+<div id="noteModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <p id="modalNoteContent"></p>
+    </div>
+</div>
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
