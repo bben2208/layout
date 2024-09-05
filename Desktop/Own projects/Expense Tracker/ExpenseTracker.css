@@ -1,0 +1,44 @@
+/* #expenseInput{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#addExpense{
+    width: 15%;
+    
+    background-color: rgb(147, 234, 16)
+}
+
+table{
+    width: 100%;
+    border:1px;
+    border: black;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center; /* Center horizontally */
+    vertical-align: middle; /* Center vertically */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+th {
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#addExpense{
+    width: 15%;
+    
+    background-color: rgb(147, 234, 16)
+}
